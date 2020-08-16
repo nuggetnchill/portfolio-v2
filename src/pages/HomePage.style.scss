@@ -1,0 +1,28 @@
+.home-page {
+  padding: 3rem;
+  padding-right: 25rem;
+  h1 {
+    padding-bottom: 3rem;
+    font-size: 3rem;
+  }
+
+  h2 {
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+  }
+
+  a {
+    background-image: linear-gradient(to top, #646464 35%, transparent 35%);
+
+    &:hover {
+      background: #646464;
+      color: #ffffff;
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .home-page {
+    padding-right: 3rem;
+  }
+}

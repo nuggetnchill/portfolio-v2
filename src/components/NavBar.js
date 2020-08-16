@@ -11,20 +11,13 @@ const NavBar = () => {
         <img alt='logo' src={logo} />
       </Link>
       <ul>
-        <Link className='link' to='/'>
-          HOME
-        </Link>
-        <span> / </span>
-
         <Link className='link' to='/about'>
           ABOUT
         </Link>
-        <span> / </span>
 
         <Link className='link' to='/projects'>
           PROJECTS
         </Link>
-        <span> / </span>
 
         <Link className='link' to='/contact'>
           CONTACT
