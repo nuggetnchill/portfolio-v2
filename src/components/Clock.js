@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function Clock() {
   const [clock, setClock] = useState(null);
@@ -17,7 +17,10 @@ export default function Clock() {
     clearInterval();
   };
 
-  displayTime();
+  useEffect(() => {
+    displayTime();
+    clearInterval();
+  }, []);
 
   return (
     <div>
