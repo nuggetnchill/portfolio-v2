@@ -1,8 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import './ErrorPage.style.scss';
-import Footer from '../components/Footer';
+import "./ErrorPage.style.scss";
 
 export default function ErrorPage() {
   return (
@@ -10,17 +9,16 @@ export default function ErrorPage() {
       <div className='error'>
         <h1 className='message-title'>Page Not Found</h1>
         <p className='message-text'>
-          We're sorry, the page you were looking for isn't found here. The link
-          you followed may either be broken or no longer exists.
+          Sorry, the page you are looking for is not here. The link you followed
+          may either be broken or no longer exists.
         </p>
         <Link to='/' className='go-back'>
           <img
-            alt
+            alt='take-me-home'
             src='https://media1.tenor.com/images/9b5c045e49594779c2819ca7a20ac845/tenor.gif?itemid=12437526'
           />
         </Link>
       </div>
-      <Footer />
     </>
   );
 }
