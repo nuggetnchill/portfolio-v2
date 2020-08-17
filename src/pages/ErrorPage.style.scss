@@ -1,0 +1,22 @@
+.error {
+  height: 90vh;
+  padding: 6rem;
+
+  .message-title {
+    font-size: 3rem;
+  }
+  .go-back {
+    font-size: 2rem;
+
+    img {
+      margin: 1.5rem auto;
+      height: 50%;
+      opacity: 0.5;
+
+      &:hover {
+        opacity: 1;
+        transition: 2s;
+      }
+    }
+  }
+}
