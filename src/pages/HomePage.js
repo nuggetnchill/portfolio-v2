@@ -33,7 +33,7 @@ export default function HomePage() {
           </a>
           <br />
           <br />
-          Currently coding with: react | javascript | html | css
+          Currently coding with: react | javascript | html | css & sass
         </h2>
       </div>
       <Footer />

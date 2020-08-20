@@ -61,9 +61,18 @@ export default function ProjectPage() {
 
   const projectList = [
     {
+      name: "Athena Clothing",
+      imgUrl: "https://media0.giphy.com/media/Lqb0fS5TStuqBYOscy/giphy.gif",
+      stack: "[React, Redux, Hooks, Firebase, Stripe ]",
+      description:
+        "An E-commerce App that has all the essential functions such as shopping cart with local storage, sign in with email or with a google account, storing user information with Firebase, and processing payments with Stripe API  ",
+      link: "https://athenaclo.netlify.app/",
+      sourceCode: "https://github.com/nuggetnchill/athena-clothing",
+    },
+    {
       name: "NASA App",
       imgUrl: "https://media0.giphy.com/media/VItvKVVnHTdM9O7QJ5/giphy.gif",
-      stack: "[React]",
+      stack: "[React, React Router, SASS]",
       description:
         "Using data from official NASA API, this app can show you Astronomy Picture of the Day and pictures from Mars Rover",
       link: "https://space-explore.netlify.app/",
@@ -132,7 +141,7 @@ export default function ProjectPage() {
       <NavBar />
 
       <header>
-        <Particles className='particles' params={particleParams} />
+        {/* <Particles className='particles' params={particleParams} /> */}
         <h1>My Projects</h1>
       </header>
 
