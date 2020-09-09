@@ -70,11 +70,11 @@ export default function ProjectPage() {
       sourceCode: "https://github.com/nuggetnchill/athena-clothing",
     },
     {
-      name: "NASA App",
-      imgUrl: "https://media0.giphy.com/media/VItvKVVnHTdM9O7QJ5/giphy.gif",
+      name: "Space Exploration",
+      imgUrl: "https://media.giphy.com/media/dzIq0OzUaErnz9Qf4b/giphy.gif",
       stack: "[React, React Router, SASS]",
       description:
-        "Using data from official NASA API, this app can show you Astronomy Picture of the Day and pictures from Mars Rover",
+        "International Space Station real time tracker, Mars Rover Images and Astronomical Photo of the Day",
       link: "https://space-explore.netlify.app/",
       sourceCode: "https://github.com/nuggetnchill/nasa-app",
     },
