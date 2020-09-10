@@ -12,7 +12,7 @@ export default function HomePage() {
         <h1>Hi, I'm Justin</h1>
         <h2>
           I'm a recent graduate from Wichita State University and I'm looking
-          for my first developer role. I love creating and experimenting new
+          for a developer position to help team solve problems in a creative way. I love creating and experimenting new
           things with code. My specialties include fast learning, problem
           solving and stepping out of my comfort zone. If you like what you see,
           don't be shy to{" "}
@@ -33,7 +33,7 @@ export default function HomePage() {
           </a>
           <br />
           <br />
-          Currently coding with: react | javascript | html | css & sass
+          Currently coding with: react | node & express | postgresql | javascript | html | css & sass
         </h2>
       </div>
       <Footer />
